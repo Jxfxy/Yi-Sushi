@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAD34C;
+  position: fixed;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  padding-top: 1em;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  margin: auto;
+  max-width: 800px;
+}
+
+ul #nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Noto Sans JP';
+}
+
+ul #nav-link:hover {
+  color: Black;
+  /*Can more lighting effect onto the nav buttons*/
+}
+
+.cover {
+  width: 100%;
+  height: 85vh;
+  background-size: 650px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -2;
+  margin: 50px auto;
+  background-color: blanchedalmond;
+}
+
+.cover .cover-photo {
+  position: absolute;
+  left: 0%;
+  width: 600px;
+  height: 83.7vh;
+}
+
+.cover .app {
+  position: absolute;
+  right: 0%;
+  width: 580px;
+  z-index: -1;
+}
+
+.canvas {
+  height: 700px;
+  width: 400px;
+  background-color: white;
+  position: relative;
+  margin: 50px auto;
+}
+
+.canvas img {
+  width: 300px;
+  margin: 0 50px;
+}
+
+.canvas h3 {
+  width: 350px;
+  text-align: center;
+  margin: auto;
+}
+
+.canvas h4 {
+  font-size: 1em;
+  width: 350px;
+  margin: 50px auto;
+  text-align: center;
+  font-weight: thin;
+  line-height: 2em;
+}
+
+.canvas button {
+  margin-top: 3px;
+}
+
+.canvas button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(410px, 900px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(410px, 900px));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.menu img {
+  padding: 1em;
+}
+
+.menu .menu_1 {
+  max-width: 100%;
+}
+
+.menu .menu_2 {
+  max-width: 100%;
+}
+
+.menu .map {
+  width: 800px;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 90px;
+  font-family: 'Noto Sans JP';
+  grid-area: text;
+  margin-bottom: -.5rem;
+}
+
+.contact {
+  margin: 0 auto 20px auto;
+}
+
+.contact table {
+  margin-top: 20px;
+}
+
+.contact td, .contact th {
+  padding: 10px 40px;
+  text-align: left;
+}
+
+.contact .contact-numbers {
+  margin-top: 30px;
+}
+
+.contact .contact-numbers p {
+  text-align: center;
+}
+/*# sourceMappingURL=yisushi.css.map */
