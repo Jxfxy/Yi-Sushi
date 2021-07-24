@@ -41,7 +41,6 @@ ul {
 }
 
 .cover {
-    
     width: 100%;
     height: 85vh;
     background-size: 650px;
@@ -57,11 +56,13 @@ ul {
         width: 600px;
         height: 85vh;
     }
+
     .app {
         position: absolute;
         right: 0%;
         width: 580px;
         z-index: -1;
+        height: 85vh;
     }
 }
 
